@@ -8,7 +8,7 @@ import { CalculadoraService } from '../services';
 })
 export class CalculadoraComponent implements OnInit {
 
-  constructor() { }
+  constructor(private calculadoraService:CalculadoraService) { }
 
   ngOnInit(): void {
   }
