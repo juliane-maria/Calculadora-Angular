@@ -30,7 +30,7 @@ export class CalculadoraService {
       break;
 
       case CalculadoraService.DIVISAO:
-        resultado: num1/num2;
+        resultado= num1/num2;
       break;
 
       default:
